@@ -4,15 +4,15 @@ This project explores the performance of some classical architecture of Convolut
 
 Usage
 
-- [Installation](##Installation)
-- [Running](##Running) 
+- [Installation](#Installation)
+- [Running](#Running) 
 
 Experiments
 
-- [Training Different Network Architecture](##Network Architecture)
-- [Deeper or Wider?](##Deeper or Wider?) 
-- [Activation Function and Layer Normalization](##Activation Function and Layer Normalization)
-- [Augmentations](##Augmentations)
+- [Training Different Network Architecture](#network-Architecture)
+- [Deeper or Wider?](#Deeper or-Wider?) 
+- [Activation Function and Layer Normalization](#Activation-Function-and-Layer-Normalization)
+- [Augmentations](#Augmentations)
 
 # Usage
 
