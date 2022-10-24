@@ -10,7 +10,7 @@ Usage
 Experiments
 
 - [Training Different Network Architecture](#network-Architecture)
-- [Deeper or Wider?](#Deeper or-Wider?) 
+- [Deeper or Wider?](#Deeper-or-Wider) 
 - [Activation Function and Layer Normalization](#Activation-Function-and-Layer-Normalization)
 - [Augmentations](#Augmentations)
 
