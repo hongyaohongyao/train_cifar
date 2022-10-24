@@ -1,0 +1,1753 @@
+=> creating model 'resnet18_gn',num of classes '10'
+using optimizer SGD
+using learning rate scheduler CosineAnnealingLR
+Train/Epoch 0/250
+Train/loss 1.65691
+Train/acc 0.38699
+Val/Epoch 0/250
+Val/loss 1.64570
+Val/acc 0.42257
+Checkpoint 0 saved ! best: True
+Train/Epoch 1/250
+Train/loss 1.20216
+Train/acc 0.56392
+Val/Epoch 1/250
+Val/loss 1.31214
+Val/acc 0.54440
+Checkpoint 1 saved ! best: True
+Train/Epoch 2/250
+Train/loss 0.96791
+Train/acc 0.65432
+Val/Epoch 2/250
+Val/loss 1.15808
+Val/acc 0.60384
+Checkpoint 2 saved ! best: True
+Train/Epoch 3/250
+Train/loss 0.80701
+Train/acc 0.71762
+Val/Epoch 3/250
+Val/loss 0.88990
+Val/acc 0.69788
+Checkpoint 3 saved ! best: True
+Train/Epoch 4/250
+Train/loss 0.69525
+Train/acc 0.76039
+Val/Epoch 4/250
+Val/loss 0.71201
+Val/acc 0.75079
+Checkpoint 4 saved ! best: True
+Train/Epoch 5/250
+Train/loss 0.62807
+Train/acc 0.78438
+Val/Epoch 5/250
+Val/loss 0.73098
+Val/acc 0.75702
+Checkpoint 5 saved ! best: True
+Train/Epoch 6/250
+Train/loss 0.59417
+Train/acc 0.79697
+Val/Epoch 6/250
+Val/loss 0.70649
+Val/acc 0.76058
+Checkpoint 6 saved ! best: True
+Train/Epoch 7/250
+Train/loss 0.56570
+Train/acc 0.80725
+Val/Epoch 7/250
+Val/loss 0.73087
+Val/acc 0.75356
+Checkpoint 7 saved ! best: False
+Train/Epoch 8/250
+Train/loss 0.53560
+Train/acc 0.81676
+Val/Epoch 8/250
+Val/loss 0.73000
+Val/acc 0.74565
+Checkpoint 8 saved ! best: False
+Train/Epoch 9/250
+Train/loss 0.52661
+Train/acc 0.82051
+Val/Epoch 9/250
+Val/loss 0.99860
+Val/acc 0.69976
+Checkpoint 9 saved ! best: False
+Train/Epoch 10/250
+Train/loss 0.51136
+Train/acc 0.82544
+Val/Epoch 10/250
+Val/loss 0.88515
+Val/acc 0.72429
+Checkpoint 10 saved ! best: False
+Train/Epoch 11/250
+Train/loss 0.49759
+Train/acc 0.82866
+Val/Epoch 11/250
+Val/loss 0.85175
+Val/acc 0.72834
+Checkpoint 11 saved ! best: False
+Train/Epoch 12/250
+Train/loss 0.48771
+Train/acc 0.83588
+Val/Epoch 12/250
+Val/loss 1.09964
+Val/acc 0.67346
+Checkpoint 12 saved ! best: False
+Train/Epoch 13/250
+Train/loss 0.47644
+Train/acc 0.83722
+Val/Epoch 13/250
+Val/loss 0.58142
+Val/acc 0.80192
+Checkpoint 13 saved ! best: True
+Train/Epoch 14/250
+Train/loss 0.45990
+Train/acc 0.84469
+Val/Epoch 14/250
+Val/loss 0.75122
+Val/acc 0.76266
+Checkpoint 14 saved ! best: False
+Train/Epoch 15/250
+Train/loss 0.46192
+Train/acc 0.84321
+Val/Epoch 15/250
+Val/loss 0.74267
+Val/acc 0.76394
+Checkpoint 15 saved ! best: False
+Train/Epoch 16/250
+Train/loss 0.44885
+Train/acc 0.84908
+Val/Epoch 16/250
+Val/loss 0.66181
+Val/acc 0.78066
+Checkpoint 16 saved ! best: False
+Train/Epoch 17/250
+Train/loss 0.44357
+Train/acc 0.84952
+Val/Epoch 17/250
+Val/loss 0.76364
+Val/acc 0.75682
+Checkpoint 17 saved ! best: False
+Train/Epoch 18/250
+Train/loss 0.44327
+Train/acc 0.84960
+Val/Epoch 18/250
+Val/loss 0.89513
+Val/acc 0.73517
+Checkpoint 18 saved ! best: False
+Train/Epoch 19/250
+Train/loss 0.42050
+Train/acc 0.85818
+Val/Epoch 19/250
+Val/loss 0.60845
+Val/acc 0.79984
+Checkpoint 19 saved ! best: False
+Train/Epoch 20/250
+Train/loss 0.42157
+Train/acc 0.85778
+Val/Epoch 20/250
+Val/loss 0.56132
+Val/acc 0.81210
+Checkpoint 20 saved ! best: True
+Train/Epoch 21/250
+Train/loss 0.41855
+Train/acc 0.85887
+Val/Epoch 21/250
+Val/loss 0.73354
+Val/acc 0.76315
+Checkpoint 21 saved ! best: False
+Train/Epoch 22/250
+Train/loss 0.41452
+Train/acc 0.85912
+Val/Epoch 22/250
+Val/loss 0.56160
+Val/acc 0.80538
+Checkpoint 22 saved ! best: False
+Train/Epoch 23/250
+Train/loss 0.40761
+Train/acc 0.86188
+Val/Epoch 23/250
+Val/loss 0.68604
+Val/acc 0.77739
+Checkpoint 23 saved ! best: False
+Train/Epoch 24/250
+Train/loss 0.41070
+Train/acc 0.86230
+Val/Epoch 24/250
+Val/loss 0.59853
+Val/acc 0.80380
+Checkpoint 24 saved ! best: False
+Train/Epoch 25/250
+Train/loss 0.39424
+Train/acc 0.86816
+Val/Epoch 25/250
+Val/loss 0.71218
+Val/acc 0.77265
+Checkpoint 25 saved ! best: False
+Train/Epoch 26/250
+Train/loss 0.39666
+Train/acc 0.86572
+Val/Epoch 26/250
+Val/loss 0.52421
+Val/acc 0.82367
+Checkpoint 26 saved ! best: True
+Train/Epoch 27/250
+Train/loss 0.39917
+Train/acc 0.86436
+Val/Epoch 27/250
+Val/loss 1.06764
+Val/acc 0.69492
+Checkpoint 27 saved ! best: False
+Train/Epoch 28/250
+Train/loss 0.39578
+Train/acc 0.86714
+Val/Epoch 28/250
+Val/loss 0.61414
+Val/acc 0.79401
+Checkpoint 28 saved ! best: False
+Train/Epoch 29/250
+Train/loss 0.38790
+Train/acc 0.86841
+Val/Epoch 29/250
+Val/loss 0.67489
+Val/acc 0.77680
+Checkpoint 29 saved ! best: False
+Train/Epoch 30/250
+Train/loss 0.38065
+Train/acc 0.87108
+Val/Epoch 30/250
+Val/loss 0.69974
+Val/acc 0.77512
+Checkpoint 30 saved ! best: False
+Train/Epoch 31/250
+Train/loss 0.38187
+Train/acc 0.87144
+Val/Epoch 31/250
+Val/loss 0.58978
+Val/acc 0.80934
+Checkpoint 31 saved ! best: False
+Train/Epoch 32/250
+Train/loss 0.37648
+Train/acc 0.87255
+Val/Epoch 32/250
+Val/loss 0.63586
+Val/acc 0.79055
+Checkpoint 32 saved ! best: False
+Train/Epoch 33/250
+Train/loss 0.37458
+Train/acc 0.87338
+Val/Epoch 33/250
+Val/loss 0.57369
+Val/acc 0.80627
+Checkpoint 33 saved ! best: False
+Train/Epoch 34/250
+Train/loss 0.37658
+Train/acc 0.87272
+Val/Epoch 34/250
+Val/loss 0.62144
+Val/acc 0.79935
+Checkpoint 34 saved ! best: False
+Train/Epoch 35/250
+Train/loss 0.36973
+Train/acc 0.87620
+Val/Epoch 35/250
+Val/loss 0.63301
+Val/acc 0.81240
+Checkpoint 35 saved ! best: False
+Train/Epoch 36/250
+Train/loss 0.36799
+Train/acc 0.87598
+Val/Epoch 36/250
+Val/loss 0.90921
+Val/acc 0.73457
+Checkpoint 36 saved ! best: False
+Train/Epoch 37/250
+Train/loss 0.37048
+Train/acc 0.87534
+Val/Epoch 37/250
+Val/loss 0.70796
+Val/acc 0.77729
+Checkpoint 37 saved ! best: False
+Train/Epoch 38/250
+Train/loss 0.36770
+Train/acc 0.87512
+Val/Epoch 38/250
+Val/loss 0.49707
+Val/acc 0.83307
+Checkpoint 38 saved ! best: True
+Train/Epoch 39/250
+Train/loss 0.36330
+Train/acc 0.87581
+Val/Epoch 39/250
+Val/loss 0.60915
+Val/acc 0.80301
+Checkpoint 39 saved ! best: False
+Train/Epoch 40/250
+Train/loss 0.36529
+Train/acc 0.87693
+Val/Epoch 40/250
+Val/loss 0.57841
+Val/acc 0.80894
+Checkpoint 40 saved ! best: False
+Train/Epoch 41/250
+Train/loss 0.35827
+Train/acc 0.87856
+Val/Epoch 41/250
+Val/loss 0.56585
+Val/acc 0.81398
+Checkpoint 41 saved ! best: False
+Train/Epoch 42/250
+Train/loss 0.35775
+Train/acc 0.87910
+Val/Epoch 42/250
+Val/loss 0.66422
+Val/acc 0.78471
+Checkpoint 42 saved ! best: False
+Train/Epoch 43/250
+Train/loss 0.35397
+Train/acc 0.88084
+Val/Epoch 43/250
+Val/loss 0.83181
+Val/acc 0.76009
+Checkpoint 43 saved ! best: False
+Train/Epoch 44/250
+Train/loss 0.36069
+Train/acc 0.87821
+Val/Epoch 44/250
+Val/loss 0.48679
+Val/acc 0.83970
+Checkpoint 44 saved ! best: True
+Train/Epoch 45/250
+Train/loss 0.35436
+Train/acc 0.88028
+Val/Epoch 45/250
+Val/loss 0.62908
+Val/acc 0.79697
+Checkpoint 45 saved ! best: False
+Train/Epoch 46/250
+Train/loss 0.34994
+Train/acc 0.88338
+Val/Epoch 46/250
+Val/loss 0.61254
+Val/acc 0.79866
+Checkpoint 46 saved ! best: False
+Train/Epoch 47/250
+Train/loss 0.34638
+Train/acc 0.88161
+Val/Epoch 47/250
+Val/loss 0.68865
+Val/acc 0.78412
+Checkpoint 47 saved ! best: False
+Train/Epoch 48/250
+Train/loss 0.34710
+Train/acc 0.88126
+Val/Epoch 48/250
+Val/loss 0.58816
+Val/acc 0.81329
+Checkpoint 48 saved ! best: False
+Train/Epoch 49/250
+Train/loss 0.34716
+Train/acc 0.88288
+Val/Epoch 49/250
+Val/loss 0.53469
+Val/acc 0.82091
+Checkpoint 49 saved ! best: False
+Train/Epoch 50/250
+Train/loss 0.34199
+Train/acc 0.88451
+Val/Epoch 50/250
+Val/loss 0.52389
+Val/acc 0.82605
+Checkpoint 50 saved ! best: False
+Train/Epoch 51/250
+Train/loss 0.34626
+Train/acc 0.88154
+Val/Epoch 51/250
+Val/loss 0.58554
+Val/acc 0.81171
+Checkpoint 51 saved ! best: False
+Train/Epoch 52/250
+Train/loss 0.33896
+Train/acc 0.88664
+Val/Epoch 52/250
+Val/loss 0.72665
+Val/acc 0.78026
+Checkpoint 52 saved ! best: False
+Train/Epoch 53/250
+Train/loss 0.33822
+Train/acc 0.88750
+Val/Epoch 53/250
+Val/loss 0.66989
+Val/acc 0.78679
+Checkpoint 53 saved ! best: False
+Train/Epoch 54/250
+Train/loss 0.34118
+Train/acc 0.88554
+Val/Epoch 54/250
+Val/loss 0.62028
+Val/acc 0.80133
+Checkpoint 54 saved ! best: False
+Train/Epoch 55/250
+Train/loss 0.33518
+Train/acc 0.88478
+Val/Epoch 55/250
+Val/loss 0.46071
+Val/acc 0.85077
+Checkpoint 55 saved ! best: True
+Train/Epoch 56/250
+Train/loss 0.33571
+Train/acc 0.88696
+Val/Epoch 56/250
+Val/loss 0.71295
+Val/acc 0.77532
+Checkpoint 56 saved ! best: False
+Train/Epoch 57/250
+Train/loss 0.33274
+Train/acc 0.88769
+Val/Epoch 57/250
+Val/loss 0.49189
+Val/acc 0.84217
+Checkpoint 57 saved ! best: False
+Train/Epoch 58/250
+Train/loss 0.33571
+Train/acc 0.88790
+Val/Epoch 58/250
+Val/loss 0.42560
+Val/acc 0.85601
+Checkpoint 58 saved ! best: True
+Train/Epoch 59/250
+Train/loss 0.33319
+Train/acc 0.88728
+Val/Epoch 59/250
+Val/loss 0.57394
+Val/acc 0.81448
+Checkpoint 59 saved ! best: False
+Train/Epoch 60/250
+Train/loss 0.32503
+Train/acc 0.89070
+Val/Epoch 60/250
+Val/loss 0.64334
+Val/acc 0.79767
+Checkpoint 60 saved ! best: False
+Train/Epoch 61/250
+Train/loss 0.33217
+Train/acc 0.88776
+Val/Epoch 61/250
+Val/loss 0.76878
+Val/acc 0.76790
+Checkpoint 61 saved ! best: False
+Train/Epoch 62/250
+Train/loss 0.31961
+Train/acc 0.89161
+Val/Epoch 62/250
+Val/loss 0.51949
+Val/acc 0.82842
+Checkpoint 62 saved ! best: False
+Train/Epoch 63/250
+Train/loss 0.32958
+Train/acc 0.88826
+Val/Epoch 63/250
+Val/loss 0.56563
+Val/acc 0.81487
+Checkpoint 63 saved ! best: False
+Train/Epoch 64/250
+Train/loss 0.31980
+Train/acc 0.89221
+Val/Epoch 64/250
+Val/loss 0.48515
+Val/acc 0.84039
+Checkpoint 64 saved ! best: False
+Train/Epoch 65/250
+Train/loss 0.32321
+Train/acc 0.89097
+Val/Epoch 65/250
+Val/loss 0.50062
+Val/acc 0.82644
+Checkpoint 65 saved ! best: False
+Train/Epoch 66/250
+Train/loss 0.32270
+Train/acc 0.89141
+Val/Epoch 66/250
+Val/loss 0.47131
+Val/acc 0.84286
+Checkpoint 66 saved ! best: False
+Train/Epoch 67/250
+Train/loss 0.31691
+Train/acc 0.89313
+Val/Epoch 67/250
+Val/loss 0.69604
+Val/acc 0.77294
+Checkpoint 67 saved ! best: False
+Train/Epoch 68/250
+Train/loss 0.31652
+Train/acc 0.89136
+Val/Epoch 68/250
+Val/loss 0.58002
+Val/acc 0.81725
+Checkpoint 68 saved ! best: False
+Train/Epoch 69/250
+Train/loss 0.31602
+Train/acc 0.89350
+Val/Epoch 69/250
+Val/loss 0.69423
+Val/acc 0.78194
+Checkpoint 69 saved ! best: False
+Train/Epoch 70/250
+Train/loss 0.31296
+Train/acc 0.89465
+Val/Epoch 70/250
+Val/loss 0.64429
+Val/acc 0.79875
+Checkpoint 70 saved ! best: False
+Train/Epoch 71/250
+Train/loss 0.30996
+Train/acc 0.89548
+Val/Epoch 71/250
+Val/loss 0.58530
+Val/acc 0.80924
+Checkpoint 71 saved ! best: False
+Train/Epoch 72/250
+Train/loss 0.30998
+Train/acc 0.89584
+Val/Epoch 72/250
+Val/loss 0.44900
+Val/acc 0.84998
+Checkpoint 72 saved ! best: False
+Train/Epoch 73/250
+Train/loss 0.30385
+Train/acc 0.89854
+Val/Epoch 73/250
+Val/loss 0.74133
+Val/acc 0.77512
+Checkpoint 73 saved ! best: False
+Train/Epoch 74/250
+Train/loss 0.30338
+Train/acc 0.89682
+Val/Epoch 74/250
+Val/loss 0.53062
+Val/acc 0.82911
+Checkpoint 74 saved ! best: False
+Train/Epoch 75/250
+Train/loss 0.30542
+Train/acc 0.89693
+Val/Epoch 75/250
+Val/loss 0.49522
+Val/acc 0.83950
+Checkpoint 75 saved ! best: False
+Train/Epoch 76/250
+Train/loss 0.30070
+Train/acc 0.89836
+Val/Epoch 76/250
+Val/loss 0.53767
+Val/acc 0.81942
+Checkpoint 76 saved ! best: False
+Train/Epoch 77/250
+Train/loss 0.29951
+Train/acc 0.89786
+Val/Epoch 77/250
+Val/loss 0.81588
+Val/acc 0.74871
+Checkpoint 77 saved ! best: False
+Train/Epoch 78/250
+Train/loss 0.30064
+Train/acc 0.89887
+Val/Epoch 78/250
+Val/loss 0.54219
+Val/acc 0.83070
+Checkpoint 78 saved ! best: False
+Train/Epoch 79/250
+Train/loss 0.30094
+Train/acc 0.89743
+Val/Epoch 79/250
+Val/loss 0.58988
+Val/acc 0.80746
+Checkpoint 79 saved ! best: False
+Train/Epoch 80/250
+Train/loss 0.29997
+Train/acc 0.89823
+Val/Epoch 80/250
+Val/loss 0.50934
+Val/acc 0.83940
+Checkpoint 80 saved ! best: False
+Train/Epoch 81/250
+Train/loss 0.29181
+Train/acc 0.90147
+Val/Epoch 81/250
+Val/loss 0.58817
+Val/acc 0.80953
+Checkpoint 81 saved ! best: False
+Train/Epoch 82/250
+Train/loss 0.28822
+Train/acc 0.90244
+Val/Epoch 82/250
+Val/loss 0.48574
+Val/acc 0.84068
+Checkpoint 82 saved ! best: False
+Train/Epoch 83/250
+Train/loss 0.29537
+Train/acc 0.90018
+Val/Epoch 83/250
+Val/loss 0.52965
+Val/acc 0.82526
+Checkpoint 83 saved ! best: False
+Train/Epoch 84/250
+Train/loss 0.28939
+Train/acc 0.90247
+Val/Epoch 84/250
+Val/loss 0.54950
+Val/acc 0.82793
+Checkpoint 84 saved ! best: False
+Train/Epoch 85/250
+Train/loss 0.28436
+Train/acc 0.90356
+Val/Epoch 85/250
+Val/loss 0.59307
+Val/acc 0.80963
+Checkpoint 85 saved ! best: False
+Train/Epoch 86/250
+Train/loss 0.28641
+Train/acc 0.90312
+Val/Epoch 86/250
+Val/loss 0.51484
+Val/acc 0.83396
+Checkpoint 86 saved ! best: False
+Train/Epoch 87/250
+Train/loss 0.28785
+Train/acc 0.90285
+Val/Epoch 87/250
+Val/loss 0.44433
+Val/acc 0.85522
+Checkpoint 87 saved ! best: False
+Train/Epoch 88/250
+Train/loss 0.27937
+Train/acc 0.90721
+Val/Epoch 88/250
+Val/loss 0.40735
+Val/acc 0.86294
+Checkpoint 88 saved ! best: True
+Train/Epoch 89/250
+Train/loss 0.28032
+Train/acc 0.90573
+Val/Epoch 89/250
+Val/loss 0.49469
+Val/acc 0.84039
+Checkpoint 89 saved ! best: False
+Train/Epoch 90/250
+Train/loss 0.27464
+Train/acc 0.90913
+Val/Epoch 90/250
+Val/loss 0.43264
+Val/acc 0.85858
+Checkpoint 90 saved ! best: False
+Train/Epoch 91/250
+Train/loss 0.27263
+Train/acc 0.90852
+Val/Epoch 91/250
+Val/loss 0.60271
+Val/acc 0.83564
+Checkpoint 91 saved ! best: False
+Train/Epoch 92/250
+Train/loss 0.27303
+Train/acc 0.90752
+Val/Epoch 92/250
+Val/loss 0.66090
+Val/acc 0.78906
+Checkpoint 92 saved ! best: False
+Train/Epoch 93/250
+Train/loss 0.27591
+Train/acc 0.90559
+Val/Epoch 93/250
+Val/loss 0.61713
+Val/acc 0.81418
+Checkpoint 93 saved ! best: False
+Train/Epoch 94/250
+Train/loss 0.26614
+Train/acc 0.91150
+Val/Epoch 94/250
+Val/loss 0.46809
+Val/acc 0.84860
+Checkpoint 94 saved ! best: False
+Train/Epoch 95/250
+Train/loss 0.26899
+Train/acc 0.91093
+Val/Epoch 95/250
+Val/loss 0.50572
+Val/acc 0.83841
+Checkpoint 95 saved ! best: False
+Train/Epoch 96/250
+Train/loss 0.26918
+Train/acc 0.90840
+Val/Epoch 96/250
+Val/loss 0.64607
+Val/acc 0.79777
+Checkpoint 96 saved ! best: False
+Train/Epoch 97/250
+Train/loss 0.27074
+Train/acc 0.90909
+Val/Epoch 97/250
+Val/loss 0.40487
+Val/acc 0.86956
+Checkpoint 97 saved ! best: True
+Train/Epoch 98/250
+Train/loss 0.26722
+Train/acc 0.90952
+Val/Epoch 98/250
+Val/loss 0.42714
+Val/acc 0.85680
+Checkpoint 98 saved ! best: False
+Train/Epoch 99/250
+Train/loss 0.25879
+Train/acc 0.91304
+Val/Epoch 99/250
+Val/loss 0.60963
+Val/acc 0.80459
+Checkpoint 99 saved ! best: False
+Train/Epoch 100/250
+Train/loss 0.26043
+Train/acc 0.91237
+Val/Epoch 100/250
+Val/loss 0.54322
+Val/acc 0.82753
+Checkpoint 100 saved ! best: False
+Train/Epoch 101/250
+Train/loss 0.26093
+Train/acc 0.91181
+Val/Epoch 101/250
+Val/loss 0.52055
+Val/acc 0.83515
+Checkpoint 101 saved ! best: False
+Train/Epoch 102/250
+Train/loss 0.25603
+Train/acc 0.91436
+Val/Epoch 102/250
+Val/loss 0.37108
+Val/acc 0.87807
+Checkpoint 102 saved ! best: True
+Train/Epoch 103/250
+Train/loss 0.25935
+Train/acc 0.91208
+Val/Epoch 103/250
+Val/loss 0.46707
+Val/acc 0.85067
+Checkpoint 103 saved ! best: False
+Train/Epoch 104/250
+Train/loss 0.25309
+Train/acc 0.91463
+Val/Epoch 104/250
+Val/loss 0.42447
+Val/acc 0.86521
+Checkpoint 104 saved ! best: False
+Train/Epoch 105/250
+Train/loss 0.25151
+Train/acc 0.91521
+Val/Epoch 105/250
+Val/loss 0.38234
+Val/acc 0.87619
+Checkpoint 105 saved ! best: False
+Train/Epoch 106/250
+Train/loss 0.25052
+Train/acc 0.91414
+Val/Epoch 106/250
+Val/loss 0.47149
+Val/acc 0.85127
+Checkpoint 106 saved ! best: False
+Train/Epoch 107/250
+Train/loss 0.25055
+Train/acc 0.91527
+Val/Epoch 107/250
+Val/loss 0.42297
+Val/acc 0.86452
+Checkpoint 107 saved ! best: False
+Train/Epoch 108/250
+Train/loss 0.24333
+Train/acc 0.91796
+Val/Epoch 108/250
+Val/loss 0.52175
+Val/acc 0.83594
+Checkpoint 108 saved ! best: False
+Train/Epoch 109/250
+Train/loss 0.24168
+Train/acc 0.91729
+Val/Epoch 109/250
+Val/loss 0.45257
+Val/acc 0.85552
+Checkpoint 109 saved ! best: False
+Train/Epoch 110/250
+Train/loss 0.23746
+Train/acc 0.91966
+Val/Epoch 110/250
+Val/loss 0.47585
+Val/acc 0.85097
+Checkpoint 110 saved ! best: False
+Train/Epoch 111/250
+Train/loss 0.24141
+Train/acc 0.91816
+Val/Epoch 111/250
+Val/loss 0.39807
+Val/acc 0.86798
+Checkpoint 111 saved ! best: False
+Train/Epoch 112/250
+Train/loss 0.23647
+Train/acc 0.91877
+Val/Epoch 112/250
+Val/loss 0.54709
+Val/acc 0.83169
+Checkpoint 112 saved ! best: False
+Train/Epoch 113/250
+Train/loss 0.24137
+Train/acc 0.91804
+Val/Epoch 113/250
+Val/loss 0.41732
+Val/acc 0.86274
+Checkpoint 113 saved ! best: False
+Train/Epoch 114/250
+Train/loss 0.23238
+Train/acc 0.92088
+Val/Epoch 114/250
+Val/loss 0.40441
+Val/acc 0.86640
+Checkpoint 114 saved ! best: False
+Train/Epoch 115/250
+Train/loss 0.22689
+Train/acc 0.92368
+Val/Epoch 115/250
+Val/loss 0.46285
+Val/acc 0.85651
+Checkpoint 115 saved ! best: False
+Train/Epoch 116/250
+Train/loss 0.23224
+Train/acc 0.92121
+Val/Epoch 116/250
+Val/loss 0.72845
+Val/acc 0.78204
+Checkpoint 116 saved ! best: False
+Train/Epoch 117/250
+Train/loss 0.22667
+Train/acc 0.92297
+Val/Epoch 117/250
+Val/loss 0.46721
+Val/acc 0.85265
+Checkpoint 117 saved ! best: False
+Train/Epoch 118/250
+Train/loss 0.22064
+Train/acc 0.92586
+Val/Epoch 118/250
+Val/loss 0.41703
+Val/acc 0.86383
+Checkpoint 118 saved ! best: False
+Train/Epoch 119/250
+Train/loss 0.22545
+Train/acc 0.92263
+Val/Epoch 119/250
+Val/loss 0.35800
+Val/acc 0.87856
+Checkpoint 119 saved ! best: True
+Train/Epoch 120/250
+Train/loss 0.21677
+Train/acc 0.92682
+Val/Epoch 120/250
+Val/loss 0.42803
+Val/acc 0.86392
+Checkpoint 120 saved ! best: False
+Train/Epoch 121/250
+Train/loss 0.21681
+Train/acc 0.92556
+Val/Epoch 121/250
+Val/loss 0.38034
+Val/acc 0.87540
+Checkpoint 121 saved ! best: False
+Train/Epoch 122/250
+Train/loss 0.20664
+Train/acc 0.93059
+Val/Epoch 122/250
+Val/loss 0.57213
+Val/acc 0.82071
+Checkpoint 122 saved ! best: False
+Train/Epoch 123/250
+Train/loss 0.21134
+Train/acc 0.92838
+Val/Epoch 123/250
+Val/loss 0.49838
+Val/acc 0.84375
+Checkpoint 123 saved ! best: False
+Train/Epoch 124/250
+Train/loss 0.21288
+Train/acc 0.92844
+Val/Epoch 124/250
+Val/loss 0.45270
+Val/acc 0.86056
+Checkpoint 124 saved ! best: False
+Train/Epoch 125/250
+Train/loss 0.20846
+Train/acc 0.92879
+Val/Epoch 125/250
+Val/loss 0.46815
+Val/acc 0.85473
+Checkpoint 125 saved ! best: False
+Train/Epoch 126/250
+Train/loss 0.20432
+Train/acc 0.93137
+Val/Epoch 126/250
+Val/loss 0.47889
+Val/acc 0.84464
+Checkpoint 126 saved ! best: False
+Train/Epoch 127/250
+Train/loss 0.20511
+Train/acc 0.92992
+Val/Epoch 127/250
+Val/loss 0.38094
+Val/acc 0.87401
+Checkpoint 127 saved ! best: False
+Train/Epoch 128/250
+Train/loss 0.20297
+Train/acc 0.93167
+Val/Epoch 128/250
+Val/loss 0.31827
+Val/acc 0.89666
+Checkpoint 128 saved ! best: True
+Train/Epoch 129/250
+Train/loss 0.19820
+Train/acc 0.93309
+Val/Epoch 129/250
+Val/loss 0.41694
+Val/acc 0.86729
+Checkpoint 129 saved ! best: False
+Train/Epoch 130/250
+Train/loss 0.19643
+Train/acc 0.93301
+Val/Epoch 130/250
+Val/loss 0.31981
+Val/acc 0.89646
+Checkpoint 130 saved ! best: False
+Train/Epoch 131/250
+Train/loss 0.19039
+Train/acc 0.93478
+Val/Epoch 131/250
+Val/loss 0.36781
+Val/acc 0.88341
+Checkpoint 131 saved ! best: False
+Train/Epoch 132/250
+Train/loss 0.18902
+Train/acc 0.93722
+Val/Epoch 132/250
+Val/loss 0.36564
+Val/acc 0.88617
+Checkpoint 132 saved ! best: False
+Train/Epoch 133/250
+Train/loss 0.18967
+Train/acc 0.93535
+Val/Epoch 133/250
+Val/loss 0.33720
+Val/acc 0.89102
+Checkpoint 133 saved ! best: False
+Train/Epoch 134/250
+Train/loss 0.19111
+Train/acc 0.93548
+Val/Epoch 134/250
+Val/loss 0.37478
+Val/acc 0.88123
+Checkpoint 134 saved ! best: False
+Train/Epoch 135/250
+Train/loss 0.18975
+Train/acc 0.93497
+Val/Epoch 135/250
+Val/loss 0.57854
+Val/acc 0.82961
+Checkpoint 135 saved ! best: False
+Train/Epoch 136/250
+Train/loss 0.18084
+Train/acc 0.93843
+Val/Epoch 136/250
+Val/loss 0.42912
+Val/acc 0.86788
+Checkpoint 136 saved ! best: False
+Train/Epoch 137/250
+Train/loss 0.18400
+Train/acc 0.93649
+Val/Epoch 137/250
+Val/loss 0.38167
+Val/acc 0.88123
+Checkpoint 137 saved ! best: False
+Train/Epoch 138/250
+Train/loss 0.17198
+Train/acc 0.94156
+Val/Epoch 138/250
+Val/loss 0.42100
+Val/acc 0.87470
+Checkpoint 138 saved ! best: False
+Train/Epoch 139/250
+Train/loss 0.17726
+Train/acc 0.93832
+Val/Epoch 139/250
+Val/loss 0.33977
+Val/acc 0.88795
+Checkpoint 139 saved ! best: False
+Train/Epoch 140/250
+Train/loss 0.17698
+Train/acc 0.94021
+Val/Epoch 140/250
+Val/loss 0.34555
+Val/acc 0.89260
+Checkpoint 140 saved ! best: False
+Train/Epoch 141/250
+Train/loss 0.16943
+Train/acc 0.94231
+Val/Epoch 141/250
+Val/loss 0.41657
+Val/acc 0.86798
+Checkpoint 141 saved ! best: False
+Train/Epoch 142/250
+Train/loss 0.17024
+Train/acc 0.94177
+Val/Epoch 142/250
+Val/loss 0.44012
+Val/acc 0.86135
+Checkpoint 142 saved ! best: False
+Train/Epoch 143/250
+Train/loss 0.16295
+Train/acc 0.94519
+Val/Epoch 143/250
+Val/loss 0.40532
+Val/acc 0.87629
+Checkpoint 143 saved ! best: False
+Train/Epoch 144/250
+Train/loss 0.16485
+Train/acc 0.94441
+Val/Epoch 144/250
+Val/loss 0.35439
+Val/acc 0.88904
+Checkpoint 144 saved ! best: False
+Train/Epoch 145/250
+Train/loss 0.15850
+Train/acc 0.94699
+Val/Epoch 145/250
+Val/loss 0.37297
+Val/acc 0.88331
+Checkpoint 145 saved ! best: False
+Train/Epoch 146/250
+Train/loss 0.16451
+Train/acc 0.94354
+Val/Epoch 146/250
+Val/loss 0.38334
+Val/acc 0.87638
+Checkpoint 146 saved ! best: False
+Train/Epoch 147/250
+Train/loss 0.15799
+Train/acc 0.94647
+Val/Epoch 147/250
+Val/loss 0.33606
+Val/acc 0.89349
+Checkpoint 147 saved ! best: False
+Train/Epoch 148/250
+Train/loss 0.15201
+Train/acc 0.94906
+Val/Epoch 148/250
+Val/loss 0.42065
+Val/acc 0.87559
+Checkpoint 148 saved ! best: False
+Train/Epoch 149/250
+Train/loss 0.15150
+Train/acc 0.94780
+Val/Epoch 149/250
+Val/loss 0.33991
+Val/acc 0.89458
+Checkpoint 149 saved ! best: False
+Train/Epoch 150/250
+Train/loss 0.14717
+Train/acc 0.95022
+Val/Epoch 150/250
+Val/loss 0.35418
+Val/acc 0.88667
+Checkpoint 150 saved ! best: False
+Train/Epoch 151/250
+Train/loss 0.14014
+Train/acc 0.95201
+Val/Epoch 151/250
+Val/loss 0.41122
+Val/acc 0.87451
+Checkpoint 151 saved ! best: False
+Train/Epoch 152/250
+Train/loss 0.14296
+Train/acc 0.95143
+Val/Epoch 152/250
+Val/loss 0.33127
+Val/acc 0.90101
+Checkpoint 152 saved ! best: True
+Train/Epoch 153/250
+Train/loss 0.14268
+Train/acc 0.95270
+Val/Epoch 153/250
+Val/loss 0.36629
+Val/acc 0.88795
+Checkpoint 153 saved ! best: False
+Train/Epoch 154/250
+Train/loss 0.13425
+Train/acc 0.95410
+Val/Epoch 154/250
+Val/loss 0.34495
+Val/acc 0.89062
+Checkpoint 154 saved ! best: False
+Train/Epoch 155/250
+Train/loss 0.13704
+Train/acc 0.95379
+Val/Epoch 155/250
+Val/loss 0.44387
+Val/acc 0.86847
+Checkpoint 155 saved ! best: False
+Train/Epoch 156/250
+Train/loss 0.13385
+Train/acc 0.95508
+Val/Epoch 156/250
+Val/loss 0.36999
+Val/acc 0.88924
+Checkpoint 156 saved ! best: False
+Train/Epoch 157/250
+Train/loss 0.12877
+Train/acc 0.95760
+Val/Epoch 157/250
+Val/loss 0.33885
+Val/acc 0.89587
+Checkpoint 157 saved ! best: False
+Train/Epoch 158/250
+Train/loss 0.12720
+Train/acc 0.95679
+Val/Epoch 158/250
+Val/loss 0.43540
+Val/acc 0.87312
+Checkpoint 158 saved ! best: False
+Train/Epoch 159/250
+Train/loss 0.12469
+Train/acc 0.95728
+Val/Epoch 159/250
+Val/loss 0.42874
+Val/acc 0.87362
+Checkpoint 159 saved ! best: False
+Train/Epoch 160/250
+Train/loss 0.12446
+Train/acc 0.95849
+Val/Epoch 160/250
+Val/loss 0.32181
+Val/acc 0.90309
+Checkpoint 160 saved ! best: True
+Train/Epoch 161/250
+Train/loss 0.12110
+Train/acc 0.95971
+Val/Epoch 161/250
+Val/loss 0.36317
+Val/acc 0.88884
+Checkpoint 161 saved ! best: False
+Train/Epoch 162/250
+Train/loss 0.11958
+Train/acc 0.95975
+Val/Epoch 162/250
+Val/loss 0.32387
+Val/acc 0.89695
+Checkpoint 162 saved ! best: False
+Train/Epoch 163/250
+Train/loss 0.11466
+Train/acc 0.96208
+Val/Epoch 163/250
+Val/loss 0.30411
+Val/acc 0.90427
+Checkpoint 163 saved ! best: True
+Train/Epoch 164/250
+Train/loss 0.11024
+Train/acc 0.96232
+Val/Epoch 164/250
+Val/loss 0.34350
+Val/acc 0.89765
+Checkpoint 164 saved ! best: False
+Train/Epoch 165/250
+Train/loss 0.11376
+Train/acc 0.96195
+Val/Epoch 165/250
+Val/loss 0.27938
+Val/acc 0.91228
+Checkpoint 165 saved ! best: True
+Train/Epoch 166/250
+Train/loss 0.10815
+Train/acc 0.96386
+Val/Epoch 166/250
+Val/loss 0.34025
+Val/acc 0.89824
+Checkpoint 166 saved ! best: False
+Train/Epoch 167/250
+Train/loss 0.10150
+Train/acc 0.96604
+Val/Epoch 167/250
+Val/loss 0.33891
+Val/acc 0.89567
+Checkpoint 167 saved ! best: False
+Train/Epoch 168/250
+Train/loss 0.10201
+Train/acc 0.96519
+Val/Epoch 168/250
+Val/loss 0.29486
+Val/acc 0.90862
+Checkpoint 168 saved ! best: False
+Train/Epoch 169/250
+Train/loss 0.10149
+Train/acc 0.96588
+Val/Epoch 169/250
+Val/loss 0.32293
+Val/acc 0.90457
+Checkpoint 169 saved ! best: False
+Train/Epoch 170/250
+Train/loss 0.10116
+Train/acc 0.96617
+Val/Epoch 170/250
+Val/loss 0.33895
+Val/acc 0.90229
+Checkpoint 170 saved ! best: False
+Train/Epoch 171/250
+Train/loss 0.09692
+Train/acc 0.96777
+Val/Epoch 171/250
+Val/loss 0.31679
+Val/acc 0.90516
+Checkpoint 171 saved ! best: False
+Train/Epoch 172/250
+Train/loss 0.09058
+Train/acc 0.96915
+Val/Epoch 172/250
+Val/loss 0.30475
+Val/acc 0.90833
+Checkpoint 172 saved ! best: False
+Train/Epoch 173/250
+Train/loss 0.09125
+Train/acc 0.96982
+Val/Epoch 173/250
+Val/loss 0.29205
+Val/acc 0.91555
+Checkpoint 173 saved ! best: True
+Train/Epoch 174/250
+Train/loss 0.08339
+Train/acc 0.97130
+Val/Epoch 174/250
+Val/loss 0.31453
+Val/acc 0.90991
+Checkpoint 174 saved ! best: False
+Train/Epoch 175/250
+Train/loss 0.08291
+Train/acc 0.97207
+Val/Epoch 175/250
+Val/loss 0.31121
+Val/acc 0.90744
+Checkpoint 175 saved ! best: False
+Train/Epoch 176/250
+Train/loss 0.08560
+Train/acc 0.97136
+Val/Epoch 176/250
+Val/loss 0.33601
+Val/acc 0.90388
+Checkpoint 176 saved ! best: False
+Train/Epoch 177/250
+Train/loss 0.07646
+Train/acc 0.97475
+Val/Epoch 177/250
+Val/loss 0.29427
+Val/acc 0.91545
+Checkpoint 177 saved ! best: False
+Train/Epoch 178/250
+Train/loss 0.08167
+Train/acc 0.97283
+Val/Epoch 178/250
+Val/loss 0.32827
+Val/acc 0.90417
+Checkpoint 178 saved ! best: False
+Train/Epoch 179/250
+Train/loss 0.07350
+Train/acc 0.97569
+Val/Epoch 179/250
+Val/loss 0.32652
+Val/acc 0.90576
+Checkpoint 179 saved ! best: False
+Train/Epoch 180/250
+Train/loss 0.07165
+Train/acc 0.97609
+Val/Epoch 180/250
+Val/loss 0.27252
+Val/acc 0.91772
+Checkpoint 180 saved ! best: True
+Train/Epoch 181/250
+Train/loss 0.07374
+Train/acc 0.97529
+Val/Epoch 181/250
+Val/loss 0.31978
+Val/acc 0.90655
+Checkpoint 181 saved ! best: False
+Train/Epoch 182/250
+Train/loss 0.06729
+Train/acc 0.97779
+Val/Epoch 182/250
+Val/loss 0.27533
+Val/acc 0.91723
+Checkpoint 182 saved ! best: False
+Train/Epoch 183/250
+Train/loss 0.06478
+Train/acc 0.97852
+Val/Epoch 183/250
+Val/loss 0.30756
+Val/acc 0.91100
+Checkpoint 183 saved ! best: False
+Train/Epoch 184/250
+Train/loss 0.06299
+Train/acc 0.97924
+Val/Epoch 184/250
+Val/loss 0.31499
+Val/acc 0.91090
+Checkpoint 184 saved ! best: False
+Train/Epoch 185/250
+Train/loss 0.05872
+Train/acc 0.98064
+Val/Epoch 185/250
+Val/loss 0.30565
+Val/acc 0.91327
+Checkpoint 185 saved ! best: False
+Train/Epoch 186/250
+Train/loss 0.06059
+Train/acc 0.97988
+Val/Epoch 186/250
+Val/loss 0.29919
+Val/acc 0.91456
+Checkpoint 186 saved ! best: False
+Train/Epoch 187/250
+Train/loss 0.05692
+Train/acc 0.98079
+Val/Epoch 187/250
+Val/loss 0.34330
+Val/acc 0.90487
+Checkpoint 187 saved ! best: False
+Train/Epoch 188/250
+Train/loss 0.04990
+Train/acc 0.98382
+Val/Epoch 188/250
+Val/loss 0.27878
+Val/acc 0.92326
+Checkpoint 188 saved ! best: True
+Train/Epoch 189/250
+Train/loss 0.05603
+Train/acc 0.98113
+Val/Epoch 189/250
+Val/loss 0.30128
+Val/acc 0.91782
+Checkpoint 189 saved ! best: False
+Train/Epoch 190/250
+Train/loss 0.04688
+Train/acc 0.98439
+Val/Epoch 190/250
+Val/loss 0.30748
+Val/acc 0.91871
+Checkpoint 190 saved ! best: False
+Train/Epoch 191/250
+Train/loss 0.05054
+Train/acc 0.98366
+Val/Epoch 191/250
+Val/loss 0.33365
+Val/acc 0.90694
+Checkpoint 191 saved ! best: False
+Train/Epoch 192/250
+Train/loss 0.04681
+Train/acc 0.98450
+Val/Epoch 192/250
+Val/loss 0.29841
+Val/acc 0.91980
+Checkpoint 192 saved ! best: False
+Train/Epoch 193/250
+Train/loss 0.04420
+Train/acc 0.98582
+Val/Epoch 193/250
+Val/loss 0.28352
+Val/acc 0.92168
+Checkpoint 193 saved ! best: False
+Train/Epoch 194/250
+Train/loss 0.04075
+Train/acc 0.98714
+Val/Epoch 194/250
+Val/loss 0.28316
+Val/acc 0.92346
+Checkpoint 194 saved ! best: True
+Train/Epoch 195/250
+Train/loss 0.03855
+Train/acc 0.98739
+Val/Epoch 195/250
+Val/loss 0.27682
+Val/acc 0.92237
+Checkpoint 195 saved ! best: False
+Train/Epoch 196/250
+Train/loss 0.03653
+Train/acc 0.98788
+Val/Epoch 196/250
+Val/loss 0.27213
+Val/acc 0.92771
+Checkpoint 196 saved ! best: True
+Train/Epoch 197/250
+Train/loss 0.03244
+Train/acc 0.99025
+Val/Epoch 197/250
+Val/loss 0.25834
+Val/acc 0.92860
+Checkpoint 197 saved ! best: True
+Train/Epoch 198/250
+Train/loss 0.03019
+Train/acc 0.99015
+Val/Epoch 198/250
+Val/loss 0.30510
+Val/acc 0.92069
+Checkpoint 198 saved ! best: False
+Train/Epoch 199/250
+Train/loss 0.02839
+Train/acc 0.99114
+Val/Epoch 199/250
+Val/loss 0.25518
+Val/acc 0.93384
+Checkpoint 199 saved ! best: True
+Train/Epoch 200/250
+Train/loss 0.02640
+Train/acc 0.99192
+Val/Epoch 200/250
+Val/loss 0.30857
+Val/acc 0.91930
+Checkpoint 200 saved ! best: False
+Train/Epoch 201/250
+Train/loss 0.02274
+Train/acc 0.99303
+Val/Epoch 201/250
+Val/loss 0.25106
+Val/acc 0.93265
+Checkpoint 201 saved ! best: False
+Train/Epoch 202/250
+Train/loss 0.02170
+Train/acc 0.99313
+Val/Epoch 202/250
+Val/loss 0.24190
+Val/acc 0.93473
+Checkpoint 202 saved ! best: True
+Train/Epoch 203/250
+Train/loss 0.02103
+Train/acc 0.99360
+Val/Epoch 203/250
+Val/loss 0.27689
+Val/acc 0.92949
+Checkpoint 203 saved ! best: False
+Train/Epoch 204/250
+Train/loss 0.02055
+Train/acc 0.99368
+Val/Epoch 204/250
+Val/loss 0.25850
+Val/acc 0.93196
+Checkpoint 204 saved ! best: False
+Train/Epoch 205/250
+Train/loss 0.01735
+Train/acc 0.99504
+Val/Epoch 205/250
+Val/loss 0.26374
+Val/acc 0.92998
+Checkpoint 205 saved ! best: False
+Train/Epoch 206/250
+Train/loss 0.01406
+Train/acc 0.99639
+Val/Epoch 206/250
+Val/loss 0.24439
+Val/acc 0.93938
+Checkpoint 206 saved ! best: True
+Train/Epoch 207/250
+Train/loss 0.01466
+Train/acc 0.99544
+Val/Epoch 207/250
+Val/loss 0.25041
+Val/acc 0.93523
+Checkpoint 207 saved ! best: False
+Train/Epoch 208/250
+Train/loss 0.01321
+Train/acc 0.99617
+Val/Epoch 208/250
+Val/loss 0.23922
+Val/acc 0.93829
+Checkpoint 208 saved ! best: False
+Train/Epoch 209/250
+Train/loss 0.01301
+Train/acc 0.99612
+Val/Epoch 209/250
+Val/loss 0.31391
+Val/acc 0.92405
+Checkpoint 209 saved ! best: False
+Train/Epoch 210/250
+Train/loss 0.01134
+Train/acc 0.99696
+Val/Epoch 210/250
+Val/loss 0.24854
+Val/acc 0.94106
+Checkpoint 210 saved ! best: True
+Train/Epoch 211/250
+Train/loss 0.01018
+Train/acc 0.99718
+Val/Epoch 211/250
+Val/loss 0.25168
+Val/acc 0.93829
+Checkpoint 211 saved ! best: False
+Train/Epoch 212/250
+Train/loss 0.00847
+Train/acc 0.99782
+Val/Epoch 212/250
+Val/loss 0.24754
+Val/acc 0.93879
+Checkpoint 212 saved ! best: False
+Train/Epoch 213/250
+Train/loss 0.00823
+Train/acc 0.99787
+Val/Epoch 213/250
+Val/loss 0.24374
+Val/acc 0.93908
+Checkpoint 213 saved ! best: False
+Train/Epoch 214/250
+Train/loss 0.00702
+Train/acc 0.99844
+Val/Epoch 214/250
+Val/loss 0.23632
+Val/acc 0.94442
+Checkpoint 214 saved ! best: True
+Train/Epoch 215/250
+Train/loss 0.00475
+Train/acc 0.99906
+Val/Epoch 215/250
+Val/loss 0.22482
+Val/acc 0.94304
+Checkpoint 215 saved ! best: False
+Train/Epoch 216/250
+Train/loss 0.00475
+Train/acc 0.99912
+Val/Epoch 216/250
+Val/loss 0.22709
+Val/acc 0.94363
+Checkpoint 216 saved ! best: False
+Train/Epoch 217/250
+Train/loss 0.00337
+Train/acc 0.99952
+Val/Epoch 217/250
+Val/loss 0.22382
+Val/acc 0.94413
+Checkpoint 217 saved ! best: False
+Train/Epoch 218/250
+Train/loss 0.00279
+Train/acc 0.99954
+Val/Epoch 218/250
+Val/loss 0.21452
+Val/acc 0.94887
+Checkpoint 218 saved ! best: True
+Train/Epoch 219/250
+Train/loss 0.00294
+Train/acc 0.99956
+Val/Epoch 219/250
+Val/loss 0.22512
+Val/acc 0.94551
+Checkpoint 219 saved ! best: False
+Train/Epoch 220/250
+Train/loss 0.00242
+Train/acc 0.99976
+Val/Epoch 220/250
+Val/loss 0.22292
+Val/acc 0.94452
+Checkpoint 220 saved ! best: False
+Train/Epoch 221/250
+Train/loss 0.00216
+Train/acc 0.99986
+Val/Epoch 221/250
+Val/loss 0.21547
+Val/acc 0.94699
+Checkpoint 221 saved ! best: False
+Train/Epoch 222/250
+Train/loss 0.00231
+Train/acc 0.99973
+Val/Epoch 222/250
+Val/loss 0.21180
+Val/acc 0.94798
+Checkpoint 222 saved ! best: False
+Train/Epoch 223/250
+Train/loss 0.00218
+Train/acc 0.99984
+Val/Epoch 223/250
+Val/loss 0.20870
+Val/acc 0.94828
+Checkpoint 223 saved ! best: False
+Train/Epoch 224/250
+Train/loss 0.00224
+Train/acc 0.99978
+Val/Epoch 224/250
+Val/loss 0.21517
+Val/acc 0.94788
+Checkpoint 224 saved ! best: False
+Train/Epoch 225/250
+Train/loss 0.00181
+Train/acc 0.99992
+Val/Epoch 225/250
+Val/loss 0.21092
+Val/acc 0.94848
+Checkpoint 225 saved ! best: False
+Train/Epoch 226/250
+Train/loss 0.00200
+Train/acc 0.99986
+Val/Epoch 226/250
+Val/loss 0.21086
+Val/acc 0.94897
+Checkpoint 226 saved ! best: True
+Train/Epoch 227/250
+Train/loss 0.00196
+Train/acc 0.99986
+Val/Epoch 227/250
+Val/loss 0.20969
+Val/acc 0.94828
+Checkpoint 227 saved ! best: False
+Train/Epoch 228/250
+Train/loss 0.00178
+Train/acc 0.99994
+Val/Epoch 228/250
+Val/loss 0.20878
+Val/acc 0.94907
+Checkpoint 228 saved ! best: True
+Train/Epoch 229/250
+Train/loss 0.00170
+Train/acc 0.99998
+Val/Epoch 229/250
+Val/loss 0.21219
+Val/acc 0.94699
+Checkpoint 229 saved ! best: False
+Train/Epoch 230/250
+Train/loss 0.00179
+Train/acc 0.99992
+Val/Epoch 230/250
+Val/loss 0.20736
+Val/acc 0.94877
+Checkpoint 230 saved ! best: False
+Train/Epoch 231/250
+Train/loss 0.00184
+Train/acc 0.99994
+Val/Epoch 231/250
+Val/loss 0.20782
+Val/acc 0.95026
+Checkpoint 231 saved ! best: True
+Train/Epoch 232/250
+Train/loss 0.00164
+Train/acc 0.99998
+Val/Epoch 232/250
+Val/loss 0.20470
+Val/acc 0.94986
+Checkpoint 232 saved ! best: False
+Train/Epoch 233/250
+Train/loss 0.00177
+Train/acc 0.99992
+Val/Epoch 233/250
+Val/loss 0.20631
+Val/acc 0.94956
+Checkpoint 233 saved ! best: False
+Train/Epoch 234/250
+Train/loss 0.00164
+Train/acc 0.99996
+Val/Epoch 234/250
+Val/loss 0.20170
+Val/acc 0.95045
+Checkpoint 234 saved ! best: True
+Train/Epoch 235/250
+Train/loss 0.00184
+Train/acc 0.99992
+Val/Epoch 235/250
+Val/loss 0.20679
+Val/acc 0.94966
+Checkpoint 235 saved ! best: False
+Train/Epoch 236/250
+Train/loss 0.00166
+Train/acc 0.99994
+Val/Epoch 236/250
+Val/loss 0.20417
+Val/acc 0.94927
+Checkpoint 236 saved ! best: False
+Train/Epoch 237/250
+Train/loss 0.00166
+Train/acc 0.99996
+Val/Epoch 237/250
+Val/loss 0.20270
+Val/acc 0.95045
+Checkpoint 237 saved ! best: False
+Train/Epoch 238/250
+Train/loss 0.00178
+Train/acc 0.99998
+Val/Epoch 238/250
+Val/loss 0.20244
+Val/acc 0.94947
+Checkpoint 238 saved ! best: False
+Train/Epoch 239/250
+Train/loss 0.00156
+Train/acc 1.00000
+Val/Epoch 239/250
+Val/loss 0.20188
+Val/acc 0.94947
+Checkpoint 239 saved ! best: False
+Train/Epoch 240/250
+Train/loss 0.00168
+Train/acc 0.99996
+Val/Epoch 240/250
+Val/loss 0.20308
+Val/acc 0.94947
+Checkpoint 240 saved ! best: False
+Train/Epoch 241/250
+Train/loss 0.00159
+Train/acc 1.00000
+Val/Epoch 241/250
+Val/loss 0.20211
+Val/acc 0.95026
+Checkpoint 241 saved ! best: False
+Train/Epoch 242/250
+Train/loss 0.00163
+Train/acc 0.99994
+Val/Epoch 242/250
+Val/loss 0.20233
+Val/acc 0.94976
+Checkpoint 242 saved ! best: False
+Train/Epoch 243/250
+Train/loss 0.00172
+Train/acc 0.99994
+Val/Epoch 243/250
+Val/loss 0.20364
+Val/acc 0.94956
+Checkpoint 243 saved ! best: False
+Train/Epoch 244/250
+Train/loss 0.00166
+Train/acc 0.99996
+Val/Epoch 244/250
+Val/loss 0.20323
+Val/acc 0.95045
+Checkpoint 244 saved ! best: False
+Train/Epoch 245/250
+Train/loss 0.00166
+Train/acc 0.99996
+Val/Epoch 245/250
+Val/loss 0.20200
+Val/acc 0.95036
+Checkpoint 245 saved ! best: False
+Train/Epoch 246/250
+Train/loss 0.00173
+Train/acc 0.99994
+Val/Epoch 246/250
+Val/loss 0.20311
+Val/acc 0.94996
+Checkpoint 246 saved ! best: False
+Train/Epoch 247/250
+Train/loss 0.00163
+Train/acc 0.99998
+Val/Epoch 247/250
+Val/loss 0.20193
+Val/acc 0.94956
+Checkpoint 247 saved ! best: False
+Train/Epoch 248/250
+Train/loss 0.00173
+Train/acc 0.99994
+Val/Epoch 248/250
+Val/loss 0.20372
+Val/acc 0.95045
+Checkpoint 248 saved ! best: False
+Train/Epoch 249/250
+Train/loss 0.00164
+Train/acc 0.99996
+Val/Epoch 249/250
+Val/loss 0.20165
+Val/acc 0.94986
+Checkpoint 249 saved ! best: False

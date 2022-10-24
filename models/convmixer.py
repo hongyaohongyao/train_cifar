@@ -42,12 +42,11 @@ def ConvMixer(dim,
 
 
 def convmixer256d16k3(**kwargs):
-    #1116426
+    # 1116426
     return ConvMixer(256, 16, kernel_size=3, **kwargs)
 
 
 def convmixer256d16k9(**kwargs):
-
     return ConvMixer(256, 16, kernel_size=9, **kwargs)
 
 

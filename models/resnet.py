@@ -212,7 +212,7 @@ class ResNet(nn.Module):
 
 # simple resnet
 def resnet10(num_classes=10, **kwargs):
-    return ResNet(BasicBlock, [1, 1, 1, 1], num_classes=num_classes**kwargs)
+    return ResNet(BasicBlock, [1, 1, 1, 1], num_classes=num_classes, **kwargs)
 
 
 def resnet18(num_classes=10, **kwargs):
@@ -235,12 +235,12 @@ def resnet152(num_classes=10, **kwargs):
     return ResNet(Bottleneck, [3, 8, 36, 3], num_classes=num_classes, **kwargs)
 
 
-#resnext
+# resnext
 def resnext10(num_classes=10, **kwargs):
     return ResNet(BasicBlock, [1, 1, 1, 1],
                   wr=2,
                   groups=32,
-                  num_classes=num_classes**kwargs)
+                  num_classes=num_classes, **kwargs)
 
 
 def resnext18(num_classes=10, **kwargs):
@@ -294,7 +294,7 @@ def widerres14(num_classes=10, **kwargs):
                   **kwargs)
 
 
-#resnet with different activation
+# resnet with different activation
 def resnet10_celu(num_classes=10, **kwargs):
     return ResNet(BasicBlock, [1, 1, 1, 1],
                   num_classes=num_classes,
@@ -323,7 +323,7 @@ def resnet18_leakyrelu(num_classes=10, **kwargs):
                   **kwargs)
 
 
-#resnet with different norm layers
+# resnet with different norm layers
 
 
 def resnet18_in(num_classes=10, **kwargs):
@@ -356,6 +356,6 @@ def main():
 if __name__ == '__main__':
     """
     """
-    print(sum(p.numel() for p in resnet18().parameters()))  #11173962
-    print(sum(p.numel() for p in resnet34().parameters()))  #21282122
-    print(sum(p.numel() for p in widerres14().parameters()))  #21063818
+    print(sum(p.numel() for p in resnet18().parameters()))  # 11173962
+    print(sum(p.numel() for p in resnet34().parameters()))  # 21282122
+    print(sum(p.numel() for p in widerres14().parameters()))  # 21063818
