@@ -58,7 +58,7 @@ python train.py --name <savedir> --arch resnet18 --mixup-aug --mixup-alpha 0.3
 
 Training to find out which network architecture leads to better performance.
 
-- [ResNet](https://arxiv.org/abs/1512.03385): ResNets is a classical and strong baseline in compute vision. It introduce the residual structure into convolution neural network which solve the vanishing gradient problem and increase the depth of CNN. Experimental results show that resnets are stable network with good performance. 
+- [ResNet](https://arxiv.org/abs/1512.03385): ResNets is a classical and strong baseline in compute vision. ResNets introduce the residual structure into convolution neural network, thus solving the vanishing gradient problem and increasing the depth of CNN. Experimental results show that resnets are stable network with good performance. 
 
   > Residual Block
   >
