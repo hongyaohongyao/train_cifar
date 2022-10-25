@@ -1,6 +1,6 @@
 # [Train CIFAR10](https://github.com/hongyaohongyao/train_cifar)
 
-This project explores the performance of some classical architecture of convolution neural networks and training methods on CIFAR10. 
+This project explores the performance of some classic architectures and training methods of convolutional neural networks on CIFAR10.
 
 Usage
 
@@ -56,25 +56,25 @@ python train.py --name <savedir> --arch resnet18 --mixup-aug --mixup-alpha 0.3
 
 ## Network Architectures
 
-Training to find out which network architecture leads to better performance.
+Find out which network architecture leads to better performance.
 
-- [ResNet](https://arxiv.org/abs/1512.03385): ResNets is a classical and strong baseline in compute vision. ResNets introduce the residual structure into convolution neural network, thus solving the vanishing gradient problem and increasing the depth of CNN. Experimental results show that resnets are stable network with good performance. 
+- [ResNet](https://arxiv.org/abs/1512.03385): ResNets is a classical and strong baseline in compute vision. ResNets introduce residual structure into convolutional neural network to solve the problem of gradient disappearance and increase the depth of CNN. The test results show that resnets are stable networks with good performance.
 
   > Residual Block
   >
   > ![image-20221024215405990](assets/README/image-20221024215405990.png)
 
-- [VGG](https://arxiv.org/abs/1409.1556): Comparing with the previous work, AlexNets, VGG nets stacks convolution layers and pooling layers with smaller kernel size which reduce the parameters and improve classification accuracy. 
+- [VGG](https://arxiv.org/abs/1409.1556): Compared with previous work, AlexNets, VGG nets stack convolutional layers and pooling layers with smaller kernel size, which reduces parameters and improves classification accuracy.
 
-- [DenseNet](https://arxiv.org/abs/1608.06993): Similar to deep residual networks, dense networks make connections between different layers but are denser. As shown in the table below, the dense network achieves the highest accuracy on CIFAR10 at a smaller size. Practically, dense networks take up more memory at inference because the outputs of all layers are saved for concatenation.  
+- [DenseNet](https://arxiv.org/abs/1608.06993): Similar to deep residual networks, dense networks make connections between different layers but are denser. As shown in the table below, dense networks achieve the highest accuracy on CIFAR10 at smaller sizes. Practically, dense networks take up more memory at inference because the outputs of all layers are saved for concatenation.  
 
   > ![image-20221024214950826](assets/README/image-20221024214950826.png)
 
-- [ResNeXt](https://arxiv.org/abs/1611.05431): ResNeXts use the Aggregated Residual to aggregated more convolution operation in one layer which is able to improve classification accuracy.
+- [ResNeXt](https://arxiv.org/abs/1611.05431): ResNeXts use the aggregated residual layers to aggregated more convolution operation in one layer, thereby improving classification accuracy.
 
   > ![image-20221024214224765](assets/README/image-20221024214224765.png)
 
-- [ConvMixer](https://arxiv.org/abs/2201.09792): The ConvMixer was proposed to answer a question: Is the performance of ViTs due to the inherently-more-powerful Transformer architecture, or is it at least partly due to using patches as the input representation? The network starts with a patches embeddings layer following with several DW layers. The source code training ConvMixer has reached over 95% accuracy, but it seems that more tricks are needed as it only has 93% accuracy with our training configuration.
+- [ConvMixer](https://arxiv.org/abs/2201.09792): The ConvMixer was proposed for a question: Is the performance of ViTs due to the inherently-more-powerful Transformer architecture, or is it at least partly due to using patches as the input representation? ConvMixers start with a patches embeddings layer followed by several DW layers. The source code to train ConvMixer has achieved over 95% accuracy, but it seems to require more tricks as it is only 93% accurate in our training configuration.
 
 | Model           | params(M) | Train Acc | Valid Acc |
 | --------------- | --------- | --------- | --------- |
@@ -86,7 +86,7 @@ Training to find out which network architecture leads to better performance.
 
 ## Deeper or Wider?
 
-Intuitively, it's easy to improve the performance of the deep neural network by increasing the number of parameters. [Zagoruyko, S .et.al](https://arxiv.org/abs/1605.07146) show that the method to increase the parameters of the model is not only to deepen but also to widen the network. Inspired by this work, we compare the resnet34 with the modified resnets which have double channels and the same number of parameters as the resnet34. **It turns out that wider resnets lead to better performance**.
+Intuitively, it is easy to improve the performance of deep neural networks by increasing the number of parameters. [Zagoruyko, S .et.al](https://arxiv.org/abs/1605.07146) shows that the way to increase model parameters is not only to deepen the network, but also to widen the network. We compare the resnet34 with the modified resnets which have double channels and the same number of parameters as the resnet34. **It turns out that wider resnets lead to better performance**.
 
 | Model          | params(M) | Train Acc | Valid Acc |
 | -------------- | --------- | --------- | --------- |
@@ -96,7 +96,7 @@ Intuitively, it's easy to improve the performance of the deep neural network by 
 
 ## Activation Function and Layer Normalization
 
-We trained the resnet with 4 different activation function and 4 different  layer normalization methods. It's look like that the combination of relu activation and batch normlizaion leads to a best accuracy on CIFAR10
+We trained the resnet with 4 different activation functions and 4 different  layer normalization methods. It appears that the combination of relu activation and batch normlizaion results in the best accuracy on CIFAR10.
 
 | Model    | Activation | Normalize layer | Train Acc | Valid Acc |
 | -------- | ---------- | --------------- | --------- | --------- |
